@@ -30,7 +30,6 @@ async update(id, data): Promise<User>{
 }
 
      delete(id: number): Promise<any>{
-
         return this.userRepository.delete(id)
 
 
